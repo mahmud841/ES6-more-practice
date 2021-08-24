@@ -19,3 +19,7 @@ const blacks = products.filter(product => product.color == 'blue');
 console.log(blacks);
 //output empty array dibe cause match korbe na  blue color 
 // Map vs Filter : map gonohare  sob element ke niye operation kore result ta akta array akare dibe . r filter  every element er jonne akta condition thakbe jodi condition true hoi tahole oi element dibe 
+
+const whiteItem = products.find(product => product.color == "pink");
+console.log(whiteItem);
+// akhane find korar jonne only element ke dibe but jodi filter kora hoi tahole full array dibe . filter kisu na paile empty array dibe. find korle na thakle undeifinded dibe . onek element thakleo find only prothom ta dibe element hisebe 
